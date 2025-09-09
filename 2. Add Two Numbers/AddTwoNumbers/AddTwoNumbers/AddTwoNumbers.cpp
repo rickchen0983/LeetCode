@@ -9,24 +9,23 @@ struct ListNode {
 };
 
 void ArrayToList(int* array, int dataLength, ListNode** outputList);
-ListNode* mergeTwoLists(struct ListNode* list1, struct ListNode* list2);
+ListNode* addTwoLists(struct ListNode* list1, struct ListNode* list2);
 void Swap(int* a, int* b);
 void SortList(ListNode* head);
 
 int main()
 {
-    int array1[5] = { 0,1,2,3,4 };
+    int array1[3] = { 2,4,3 };
     int dataLength1 = sizeof(array1) / sizeof(array1[0]);
     int* ptrArray1 = array1;
-    int array2[5] = { 0,1,2,5,6 };
+    int array2[3] = { 5,6,4 };
     int dataLength2 = sizeof(array2) / sizeof(array2[0]);
     int* ptrArray2 = array2;
     ListNode* list1 = NULL;
     ListNode* list2 = NULL;
-    //std::cout << "Hello World!\n";
     ArrayToList(ptrArray1, dataLength1, &list1);
     ArrayToList(ptrArray2, dataLength2, &list2);
-    mergeTwoLists(list1, list2);
+    addTwoLists(list1, list2);
 }
 
 void ArrayToList(int* array, int dataLength, ListNode** outputList)
@@ -86,25 +85,29 @@ void SortList(ListNode* head)
  *     struct ListNode *next;
  * };
  */
-struct ListNode* mergeTwoLists(struct ListNode* list1, struct ListNode* list2) {
-    struct ListNode dummy;
-    struct ListNode* tail = &dummy;
-    dummy.next = NULL;
+struct ListNode* addTwoLists(struct ListNode* list1, struct ListNode* list2) {
+    ListNode* ptr;
+    ListNode* head;
+    ListNode* new_data;
+    head = (ListNode*)malloc(sizeof(ListNode));
 
-    while (list1 && list2) {
-        if (list1->val < list2->val) {
-            tail->next = list1;
-            list1 = list1->next;
-        }
-        else {
-            tail->next = list2;
-            list2 = list2->next;
-        }
-        tail = tail->next;
+    head->next = NULL;
+    ptr = head;
+
+    while (list1 || list2) {
+        int value1 = (list1 != NULL) ? list1->val : 0;
+        int value2 = (list2 != NULL) ? list2->val : 0;
+
+        new_data = (ListNode*)malloc(sizeof(ListNode));
+        new_data->val = value1+ value2;
+        ptr->next = new_data;
+        new_data->next = NULL;
+        ptr = ptr->next;
+		list1 = (list1 != NULL) ? list1->next:list1;
+		list2 = (list2 != NULL) ? list2->next:list2;
     }
 
-    tail->next = list1 ? list1 : list2;
-    return dummy.next;
+    return head->next;
 }
 
 

@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\r2606\\Desktop\\LeetCode\\2. Add Two Numbers\\AddTwoNumbers\\",
+  "WorkspaceRootPath": "C:\\Users\\r2606\\Desktop\\LeetCode\\LeetCode\\2. Add Two Numbers\\AddTwoNumbers\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F708DD7-FAC4-4711-9850-3519F836AB34}|AddTwoNumbers\\AddTwoNumbers.vcxproj|C:\\Users\\r2606\\Desktop\\LeetCode\\2. Add Two Numbers\\AddTwoNumbers\\AddTwoNumbers\\AddTwoNumbers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{1F708DD7-FAC4-4711-9850-3519F836AB34}|AddTwoNumbers\\AddTwoNumbers.vcxproj|C:\\Users\\r2606\\Desktop\\LeetCode\\LeetCode\\2. Add Two Numbers\\AddTwoNumbers\\AddTwoNumbers\\AddTwoNumbers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1F708DD7-FAC4-4711-9850-3519F836AB34}|AddTwoNumbers\\AddTwoNumbers.vcxproj|solutionrelative:AddTwoNumbers\\AddTwoNumbers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AddTwoNumbers.cpp",
-              "DocumentMoniker": "C:\\Users\\r2606\\Desktop\\LeetCode\\2. Add Two Numbers\\AddTwoNumbers\\AddTwoNumbers\\AddTwoNumbers.cpp",
+              "DocumentMoniker": "C:\\Users\\r2606\\Desktop\\LeetCode\\LeetCode\\2. Add Two Numbers\\AddTwoNumbers\\AddTwoNumbers\\AddTwoNumbers.cpp",
               "RelativeDocumentMoniker": "AddTwoNumbers\\AddTwoNumbers.cpp",
-              "ToolTip": "C:\\Users\\r2606\\Desktop\\LeetCode\\2. Add Two Numbers\\AddTwoNumbers\\AddTwoNumbers\\AddTwoNumbers.cpp",
+              "ToolTip": "C:\\Users\\r2606\\Desktop\\LeetCode\\LeetCode\\2. Add Two Numbers\\AddTwoNumbers\\AddTwoNumbers\\AddTwoNumbers.cpp",
               "RelativeToolTip": "AddTwoNumbers\\AddTwoNumbers.cpp",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAGoAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAABUAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-08-30T14:58:48.709Z",
               "EditorCaption": ""
