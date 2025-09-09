@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\r2606\\Desktop\\LeetCode\\21. Merge Two Sorted Lists\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{359C38F5-F2ED-40D7-8ABB-396B9ADF2CE6}|MergeTwoSortedLists\\MergeTwoSortedLists.vcxproj|C:\\Users\\r2606\\Desktop\\LeetCode\\21. Merge Two Sorted Lists\\MergeTwoSortedLists\\MergeTwoSortedLists.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{359C38F5-F2ED-40D7-8ABB-396B9ADF2CE6}|MergeTwoSortedLists\\MergeTwoSortedLists.vcxproj|solutionrelative:MergeTwoSortedLists\\MergeTwoSortedLists.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MergeTwoSortedLists.cpp",
+              "DocumentMoniker": "C:\\Users\\r2606\\Desktop\\LeetCode\\21. Merge Two Sorted Lists\\MergeTwoSortedLists\\MergeTwoSortedLists.cpp",
+              "RelativeDocumentMoniker": "MergeTwoSortedLists\\MergeTwoSortedLists.cpp",
+              "ToolTip": "C:\\Users\\r2606\\Desktop\\LeetCode\\21. Merge Two Sorted Lists\\MergeTwoSortedLists\\MergeTwoSortedLists.cpp",
+              "RelativeToolTip": "MergeTwoSortedLists\\MergeTwoSortedLists.cpp",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-30T11:56:24.409Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
