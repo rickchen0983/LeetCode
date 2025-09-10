@@ -10,8 +10,6 @@ struct ListNode {
 
 void ArrayToList(int* array, int dataLength, ListNode** outputList);
 ListNode* addTwoLists(struct ListNode* list1, struct ListNode* list2);
-void Swap(int* a, int* b);
-void SortList(ListNode* head);
 
 int main()
 {
@@ -46,36 +44,6 @@ void ArrayToList(int* array, int dataLength, ListNode** outputList)
         ptr = ptr->next;
     }
     *outputList = head->next;
-}
-
-void Swap(int* a, int* b)
-{
-    int temp = *a;
-    *a = *b;
-    *b = temp;
-}
-
-void SortList(ListNode* head)
-{
-    if (!head) return;
-
-    bool swapped;
-    ListNode* ptr1;
-    ListNode* lptr = nullptr;
-
-    do {
-        swapped = false;
-        ptr1 = head;
-
-        while (ptr1->next != lptr) {
-            if (ptr1->val > ptr1->next->val) {
-                Swap(&ptr1->val, &ptr1->next->val);
-                swapped = true;
-            }
-            ptr1 = ptr1->next;
-        }
-        lptr = ptr1;
-    } while (swapped);
 }
 
 /**
