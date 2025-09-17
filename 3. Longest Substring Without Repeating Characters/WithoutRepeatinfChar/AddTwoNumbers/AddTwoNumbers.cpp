@@ -1,36 +1,69 @@
-﻿// MergeTwoSortedLists.cpp : 此檔案包含 'main' 函式。程式會於該處開始執行及結束執行。
-//
+﻿#include <stdio.h>
+#include <stdlib.h>
 
-#include <iostream>
+typedef struct {
+    unsigned int ch; // 字元碼點
+    int pos;         // 最後出現的位置
+} CharPos;
 
-int lengthOfLongestSubstring(char* s);
-
-int main()
-{
-	char s[] = "abcabcbb";
-	int result = lengthOfLongestSubstring(s);
-	std::cout << result << std::endl;
-	return 0;
+// 在 map 中找字元 ch 的索引，如果不存在返回 -1
+int find(CharPos* map, int size, unsigned int ch) {
+    for (int i = 0; i < size; i++) {
+        if (map[i].ch == ch) return i;
+    }
+    return -1;
 }
 
+int lengthOfLongestSubstring(const char* s) {
+    int maxLen = 0;
+    int start = 0; // 窗口起點
 
-int lengthOfLongestSubstring(char* s) {
-	for(int i = 0; i< sizeof(s)/sizeof(s[0]); i++)
-	{
-	
-	}
-	return 0;
+    int mapCapacity = 16; // 動態陣列初始容量
+    int mapSize = 0;
+    CharPos* map = (CharPos*)malloc(mapCapacity * sizeof(CharPos));
+
+    for (int i = 0; s[i] != '\0'; i++) {
+        unsigned char c = s[i];
+        int idx = find(map, mapSize, c);
+
+        if (idx != -1 && map[idx].pos >= start) {
+            start = map[idx].pos + 1; // 更新窗口起點
+        }
+
+        // 更新 map
+        if (idx != -1) {
+            map[idx].pos = i;
+        }
+        else {
+            // 動態擴容
+            if (mapSize >= mapCapacity) {
+                mapCapacity *= 2;
+                map = (CharPos*)realloc(map, mapCapacity * sizeof(CharPos));
+            }
+            map[mapSize].ch = c;
+            map[mapSize].pos = i;
+            mapSize++;
+        }
+
+        int len = i - start + 1;
+        if (len > maxLen) maxLen = len;
+    }
+
+    free(map);
+    return maxLen;
 }
 
+int main() {
+    char s[] = "abcabcbb";
+    int result = lengthOfLongestSubstring(s);
+    printf("Longest substring length: %d\n", result); // 3
 
+    // 可以再測試其他字串
+    char s2[] = "bbbbb";
+    printf("Longest substring length: %d\n", lengthOfLongestSubstring(s2)); // 1
 
-// 執行程式: Ctrl + F5 或 [偵錯] > [啟動但不偵錯] 功能表
-// 偵錯程式: F5 或 [偵錯] > [啟動偵錯] 功能表
+    char s3[] = "pwwkew";
+    printf("Longest substring length: %d\n", lengthOfLongestSubstring(s3)); // 3
 
-// 開始使用的提示: 
-//   1. 使用 [方案總管] 視窗，新增/管理檔案
-//   2. 使用 [Team Explorer] 視窗，連線到原始檔控制
-//   3. 使用 [輸出] 視窗，參閱組建輸出與其他訊息
-//   4. 使用 [錯誤清單] 視窗，檢視錯誤
-//   5. 前往 [專案] > [新增項目]，建立新的程式碼檔案，或是前往 [專案] > [新增現有項目]，將現有程式碼檔案新增至專案
-//   6. 之後要再次開啟此專案時，請前往 [檔案] > [開啟] > [專案]，然後選取 .sln 檔案
+    return 0;
+}
