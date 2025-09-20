@@ -1,0 +1,4 @@
+﻿  AddTwoNumbers.cpp
+C:\Users\r2606\Desktop\LeetCode\LeetCode\67. Add Binary\AddTwoNumbers\AddTwoNumbers.cpp(6,14): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\r2606\Desktop\LeetCode\LeetCode\67. Add Binary\AddTwoNumbers\AddTwoNumbers.cpp(7,14): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+  AddTwoNumbers.vcxproj -> C:\Users\r2606\Desktop\LeetCode\LeetCode\67. Add Binary\x64\Debug\AddTwoNumbers.exe
