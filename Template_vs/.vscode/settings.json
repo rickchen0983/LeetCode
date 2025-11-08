@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "addtwolists.h": "c",
+        "stdio.h": "c"
+    }
+}

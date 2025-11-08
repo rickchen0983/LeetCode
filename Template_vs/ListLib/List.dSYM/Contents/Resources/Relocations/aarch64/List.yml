@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/rickchen0983/Desktop/Git/Template_vs/ListLib/List'
+relocations:     []
+...
