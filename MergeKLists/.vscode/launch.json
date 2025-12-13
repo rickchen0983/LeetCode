@@ -2,7 +2,21 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "C: 執行程式",
+            "name": "C: 執行程式 (Windows)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Main.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "MIDebuggerPath": "C:\\Users\\r2606\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\gdb.exe",
+            "preLaunchTask": "build"
+        },
+        {
+            "name": "C: 執行程式 (macOS)",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/Main",
@@ -12,7 +26,10 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "lldb",
-            "preLaunchTask": "build"
+            "preLaunchTask": "build",
+            "osx": {
+                "MIMode": "lldb"
+            }
         }
     ]
 }

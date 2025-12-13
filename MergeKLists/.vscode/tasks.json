@@ -3,17 +3,16 @@
     "tasks": [
         {
             "label": "build",
-            "command": "clang",
+            "command": "C:\\Users\\r2606\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\gcc.exe",
             "args": [
-                "-fcolor-diagnostics",
-                "-fansi-escape-codes",
                 "-g",
-                "${workspaceFolder}/Main.c",
-                "${workspaceFolder}/Solution/MergeKLists.c",
-                "${workspaceFolder}/Solution/AddTwoLists.c",
-                "${workspaceFolder}/ListLib/List.c",
+                "-I.",
+                "Main.c",
+                "ListLib/List.c",
+                "Solution/AddTwoLists.c",
+                "Solution/MergeKLists.c",
                 "-o",
-                "${workspaceFolder}/Main"
+                "Main.exe"
             ],
             "problemMatcher": [
                 "$gcc"
