@@ -1,0 +1,63 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "clang",
+            "args": [
+                "-g",
+                "-I.",
+                "${workspaceFolder}/Main.c",
+                "${workspaceFolder}/ListLib/List.c",
+                "${workspaceFolder}/Solution/AddTwoLists/AddTwoLists.c",
+                "${workspaceFolder}/Solution/MergeKLists/MergeKLists.c",
+                "-o",
+                "${workspaceFolder}/Main"
+            ],
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "windows": {
+                "command": "C:\\Users\\r2606\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\gcc.exe",
+                "args": [
+                    "-g",
+                    "-I.",
+                    "${workspaceFolder}\\Main.c",
+                    "${workspaceFolder}\\ListLib\\List.c",
+                    "${workspaceFolder}\\Solution\\AddTwoLists\\AddTwoLists.c",
+                    "${workspaceFolder}\\Solution\\MergeKLists\\MergeKLists.c",
+                    "-o",
+                    "${workspaceFolder}\\Main.exe"
+                ]
+            }
+        },
+        {
+            "label": "build current file",
+            "type": "shell",
+            "command": "clang",
+            "args": [
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "windows": {
+                "command": "C:\\Users\\r2606\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\gcc.exe",
+                "args": [
+                    "-g",
+                    "${file}",
+                    "-o",
+                    "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                ]
+            }
+        }
+    ]
+}
