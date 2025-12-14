@@ -1,24 +1,39 @@
 {
+    "version": 4,
     "configurations": [
         {
             "name": "Win32",
+            "intelliSenseMode": "windows-gcc-x64",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
             "includePath": [
-                "${workspaceFolder}/**",
-                "${workspaceFolder}/ListLib/",
-                "${workspaceFolder}/Solution/",
-                "${workspaceFolder}/Solution/AddTwoLists/",
-                "${workspaceFolder}/Solution/MergeKLists/"
+                ".",
+                "./ListLib",
+                "./Solution",
+                "./Solution/AddTwoLists",
+                "./Solution/MergeKLists"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
-            ],
-            "compilerPath": "C:\\Users\\r2606\\AppData\\Local\\Microsoft\\WinGet\\Packages\\BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\mingw64\\bin\\gcc.exe",
+            ]
+        },
+        {
+            "name": "macOS",
+            "intelliSenseMode": "macos-clang-x64",
             "cStandard": "c17",
             "cppStandard": "gnu++17",
-            "intelliSenseMode": "windows-gcc-x64"
+            "includePath": [
+                ".",
+                "./ListLib",
+                "./Solution",
+                "./Solution/AddTwoLists",
+                "./Solution/MergeKLists"
+            ],
+            "defines": [
+                "_DEBUG"
+            ]
         }
-    ],
-    "version": 4
+    ]
 }
