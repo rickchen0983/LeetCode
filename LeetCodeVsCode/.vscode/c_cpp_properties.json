@@ -11,7 +11,8 @@
                 "./ListLib",
                 "./Solution",
                 "./Solution/AddTwoLists",
-                "./Solution/MergeKLists"
+                "./Solution/MergeKLists",
+                "./Solution/MergeSortedArray"
             ],
             "defines": [
                 "_DEBUG",
@@ -29,7 +30,8 @@
                 "./ListLib",
                 "./Solution",
                 "./Solution/AddTwoLists",
-                "./Solution/MergeKLists"
+                "./Solution/MergeKLists",
+                "./Solution/MergeSortedArray"
             ],
             "defines": [
                 "_DEBUG"

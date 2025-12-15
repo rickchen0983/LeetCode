@@ -13,6 +13,7 @@
                 "ListLib/List.c",
                 "Solution/AddTwoLists/AddTwoLists.c",
                 "Solution/MergeKLists/MergeKLists.c",
+                "Solution/MergeSortedArray/MergeSortedArray.c",
                 "-o",
                 "Main"
             ],
@@ -32,6 +33,7 @@
                     "ListLib/List.c",
                     "Solution/AddTwoLists/AddTwoLists.c",
                     "Solution/MergeKLists/MergeKLists.c",
+                    "Solution/MergeSortedArray/MergeSortedArray.c",
                     "-o",
                     "Main.exe"
                 ]
