@@ -14,6 +14,7 @@
                 "Solution/AddTwoLists/AddTwoLists.c",
                 "Solution/MergeKLists/MergeKLists.c",
                 "Solution/MergeSortedArray/MergeSortedArray.c",
+                "Solution/IntegerToRoman/IntegerToRoman.c",
                 "-o",
                 "Main"
             ],
@@ -34,6 +35,7 @@
                     "Solution/AddTwoLists/AddTwoLists.c",
                     "Solution/MergeKLists/MergeKLists.c",
                     "Solution/MergeSortedArray/MergeSortedArray.c",
+                    "Solution/IntegerToRoman/IntegerToRoman.c",
                     "-o",
                     "Main.exe"
                 ]

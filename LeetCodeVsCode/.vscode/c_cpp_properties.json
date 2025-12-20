@@ -12,7 +12,8 @@
                 "./Solution",
                 "./Solution/AddTwoLists",
                 "./Solution/MergeKLists",
-                "./Solution/MergeSortedArray"
+                "./Solution/MergeSortedArray",
+                "./Solution/IntegerToRoman"
             ],
             "defines": [
                 "_DEBUG",
@@ -31,7 +32,8 @@
                 "./Solution",
                 "./Solution/AddTwoLists",
                 "./Solution/MergeKLists",
-                "./Solution/MergeSortedArray"
+                "./Solution/MergeSortedArray",
+                "./Solution/IntegerToRoman"
             ],
             "defines": [
                 "_DEBUG"
