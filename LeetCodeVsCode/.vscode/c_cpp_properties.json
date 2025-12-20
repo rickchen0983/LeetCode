@@ -13,7 +13,8 @@
                 "./Solution/AddTwoLists",
                 "./Solution/MergeKLists",
                 "./Solution/MergeSortedArray",
-                "./Solution/IntegerToRoman"
+                "./Solution/IntegerToRoman",
+                "./Solution/RemoveNthFromEnd"
             ],
             "defines": [
                 "_DEBUG",
@@ -33,7 +34,8 @@
                 "./Solution/AddTwoLists",
                 "./Solution/MergeKLists",
                 "./Solution/MergeSortedArray",
-                "./Solution/IntegerToRoman"
+                "./Solution/IntegerToRoman",
+                "./Solution/RemoveNthFromEnd"
             ],
             "defines": [
                 "_DEBUG"

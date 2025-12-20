@@ -15,6 +15,7 @@
                 "Solution/MergeKLists/MergeKLists.c",
                 "Solution/MergeSortedArray/MergeSortedArray.c",
                 "Solution/IntegerToRoman/IntegerToRoman.c",
+                "Solution/RemoveNthFromEnd/RemoveNthFromEnd.c",
                 "-o",
                 "Main"
             ],
@@ -36,6 +37,7 @@
                     "Solution/MergeKLists/MergeKLists.c",
                     "Solution/MergeSortedArray/MergeSortedArray.c",
                     "Solution/IntegerToRoman/IntegerToRoman.c",
+                    "Solution/RemoveNthFromEnd/RemoveNthFromEnd.c",
                     "-o",
                     "Main.exe"
                 ]
