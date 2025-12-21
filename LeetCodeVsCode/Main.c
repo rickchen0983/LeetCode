@@ -7,6 +7,7 @@
 #include "Solution/IntegerToRoman/IntegerToRoman.h"
 #include "Solution/RemoveNthFromEnd/RemoveNthFromEnd.h"
 #include "Solution/DeleteDuplicates/DeleteDuplicates.h"
+#include "Solution/GetIntersectionNode/GetIntersectionNode.h"
 
 #define PROJECT_ADDTWOLISTS 2
 #define PROJECT_MERGEKLISTS 23
@@ -14,8 +15,9 @@
 #define PROJECT_INTEGERTOROMAN 12
 #define PROJECT_REMOVENTHFROMEND 19
 #define PROJECT_DELETE_DUPLICATES 83
+#define PROJECT_GETINTERSECTIONNODE 160
 
-#define QUESTION_NUMBER PROJECT_DELETE_DUPLICATES
+#define QUESTION_NUMBER PROJECT_GETINTERSECTIONNODE
 
 int main(void)
 {
@@ -36,6 +38,9 @@ int main(void)
 #endif
 #if QUESTION_NUMBER == PROJECT_DELETE_DUPLICATES
     DeleteDuplicates_Main();
+#endif
+#if QUESTION_NUMBER == PROJECT_GETINTERSECTIONNODE
+    GetIntersectionNode_Main();
 #endif
     return 0;
 }

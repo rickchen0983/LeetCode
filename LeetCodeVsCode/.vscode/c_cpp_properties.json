@@ -15,7 +15,8 @@
                 "./Solution/MergeSortedArray",
                 "./Solution/IntegerToRoman",
                 "./Solution/RemoveNthFromEnd",
-                "./Solution/DeleteDuplicates"
+                "./Solution/DeleteDuplicates",
+                "./Solution/GetIntersectionNode"
             ],
             "defines": [
                 "_DEBUG",
@@ -37,7 +38,8 @@
                 "./Solution/MergeSortedArray",
                 "./Solution/IntegerToRoman",
                 "./Solution/RemoveNthFromEnd",
-                "./Solution/DeleteDuplicates"
+                "./Solution/DeleteDuplicates",
+                "./Solution/GetIntersectionNode"
             ],
             "defines": [
                 "_DEBUG"

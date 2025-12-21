@@ -17,6 +17,7 @@
                 "Solution/IntegerToRoman/IntegerToRoman.c",
                 "Solution/RemoveNthFromEnd/RemoveNthFromEnd.c",
                 "Solution/DeleteDuplicates/DeleteDuplicates.c",
+                "Solution/GetIntersectionNode/GetIntersectionNode.c",
                 "-o",
                 "Main"
             ],
@@ -40,6 +41,7 @@
                     "Solution/IntegerToRoman/IntegerToRoman.c",
                     "Solution/RemoveNthFromEnd/RemoveNthFromEnd.c",
                     "Solution/DeleteDuplicates/DeleteDuplicates.c",
+                    "Solution/GetIntersectionNode/GetIntersectionNode.c",
                     "-o",
                     "Main.exe"
                 ]
