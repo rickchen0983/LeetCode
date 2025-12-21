@@ -14,7 +14,8 @@
                 "./Solution/MergeKLists",
                 "./Solution/MergeSortedArray",
                 "./Solution/IntegerToRoman",
-                "./Solution/RemoveNthFromEnd"
+                "./Solution/RemoveNthFromEnd",
+                "./Solution/DeleteDuplicates"
             ],
             "defines": [
                 "_DEBUG",
@@ -35,7 +36,8 @@
                 "./Solution/MergeKLists",
                 "./Solution/MergeSortedArray",
                 "./Solution/IntegerToRoman",
-                "./Solution/RemoveNthFromEnd"
+                "./Solution/RemoveNthFromEnd",
+                "./Solution/DeleteDuplicates"
             ],
             "defines": [
                 "_DEBUG"

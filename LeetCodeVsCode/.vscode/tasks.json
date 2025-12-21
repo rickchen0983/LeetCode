@@ -16,6 +16,7 @@
                 "Solution/MergeSortedArray/MergeSortedArray.c",
                 "Solution/IntegerToRoman/IntegerToRoman.c",
                 "Solution/RemoveNthFromEnd/RemoveNthFromEnd.c",
+                "Solution/DeleteDuplicates/DeleteDuplicates.c",
                 "-o",
                 "Main"
             ],
@@ -38,6 +39,7 @@
                     "Solution/MergeSortedArray/MergeSortedArray.c",
                     "Solution/IntegerToRoman/IntegerToRoman.c",
                     "Solution/RemoveNthFromEnd/RemoveNthFromEnd.c",
+                    "Solution/DeleteDuplicates/DeleteDuplicates.c",
                     "-o",
                     "Main.exe"
                 ]
