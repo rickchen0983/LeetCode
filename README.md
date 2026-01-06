@@ -3,7 +3,7 @@
 本專案是一個使用 **C 語言** 進行 **LeetCode 演算法練習** 的開發環境。  
 透過自動化腳本與 VS Code（或 Cursor）設定整合，大幅簡化 **新題目建立、編譯與管理流程**，讓你可以專注在演算法本身。
 
-**※注意:** 此說明只適用於LeetCodeVsCode資料夾
+**※注意:** 此說明只適用於[LeetCodeVsCode](https://github.com/rickchen0983/LeetCode/tree/main/LeetCodeVsCode)資料夾
 
 ---
 
